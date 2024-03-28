@@ -1,0 +1,16 @@
+version: "3.8" # Use a supported version, such as 3.8
+
+services:
+  client:
+    build: ./client
+    container_name: react-frontend
+    ports:
+      - "3006:3006"
+    stdin_open: true
+    tty: true
+  api:
+    build: ./api
+    container_name: node-api
+    restart: always
+    ports:
+      - "7810:7810"

@@ -1,0 +1,9 @@
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navMod {
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-bottom: 5px;
+}

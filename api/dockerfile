@@ -1,0 +1,17 @@
+FROM alpine:3.19
+
+ENV NODE_VERSION 20.11.1
+
+RUN apk add --update nodejs npm
+
+WORKDIR /app
+
+COPY package.json .
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 7810
+
+CMD [ "npm", "run", "server" ]

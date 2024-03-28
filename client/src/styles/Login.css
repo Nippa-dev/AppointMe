@@ -1,0 +1,57 @@
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: ghostwhite;
+    height: 100vh;
+}
+
+.register-form {
+    border: 1px solid rgb(155, 13, 13);
+    padding: 30px;
+
+}
+
+.logo {
+    width: 150px;
+    height: 200px;
+}
+
+.form-button {
+    width: 250px !important;
+    margin-top: 30px !important;
+}
+
+/* & .ant-form-item-label {
+    &>label {
+        color: red;
+    }
+} */
+.forBg {
+    /* background-image: url('https: //fancywalls.eu/wp-content/uploads/fun-beauty-salon-removable-wallpaper-in-minimal-industrial-style-beauty-salon-683x1024.jpg'); */
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Set the opacity using RGBA */
+    height: 100%;
+    border-radius: 8px;
+    color: ghostwhite;
+    /* border-top-left-radius: 0px; */
+}
+
+.bgImg {
+    background-image: url("../assets/background.jpg");
+    height: 100%;
+    color: ghostwhite;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    color: ghostwhite;
+}
+
+.bgc {
+    background-color: red;
+}
